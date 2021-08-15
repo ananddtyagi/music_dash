@@ -7,6 +7,10 @@
           "options": {}
         },
         {
+          "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
           "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -20,6 +24,10 @@
         }
       ],
       "presets": [
+        {
+          "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/preset-flow/lib/index.js",
+          "options": {}
+        },
         {
           "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
@@ -42,6 +50,10 @@
           "options": {}
         },
         {
+          "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
           "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -55,6 +67,10 @@
         }
       ],
       "presets": [
+        {
+          "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/preset-flow/lib/index.js",
+          "options": {}
+        },
         {
           "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
@@ -77,6 +93,10 @@
           "options": {}
         },
         {
+          "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
           "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -90,6 +110,10 @@
         }
       ],
       "presets": [
+        {
+          "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/preset-flow/lib/index.js",
+          "options": {}
+        },
         {
           "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
@@ -112,6 +136,10 @@
           "options": {}
         },
         {
+          "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "options": {}
+        },
+        {
           "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
@@ -125,6 +153,10 @@
         }
       ],
       "presets": [
+        {
+          "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/preset-flow/lib/index.js",
+          "options": {}
+        },
         {
           "name": "/Users/anandtyagi/Desktop/music_dash/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
