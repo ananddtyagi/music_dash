@@ -2,8 +2,5 @@
 
 ```
 npm install
+npm install -g gatsby-cli
 ```
-
-<npm install>
-
-<npm install -g gatsby-cli>
