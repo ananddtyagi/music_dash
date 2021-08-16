@@ -1,1 +1,1 @@
-{"data":{"allFile":{"nodes":[{"name":"post2","sourceInstanceName":"blog_posts"},{"name":"post1","sourceInstanceName":"blog_posts"}]}},"pageContext":{}}
+{"data":{"allMdx":{"nodes":[{"slug":"post1"},{"slug":"post2"}]}},"pageContext":{}}
