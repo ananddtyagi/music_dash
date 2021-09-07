@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { navigate } from "gatsby";
 
 const useAuth = (code) => {
   const [accessToken, setAccessToken] = useState();
   const [refreshToken, setRefreshToken] = useState();
   const [expiresIn, setExpriresIn] = useState();
-
-  // console.log(code);
-  // console.log("use auth hook");
 
   useEffect(() => {
     axios
@@ -18,11 +16,12 @@ const useAuth = (code) => {
         setAccessToken(res.data.accessToken);
         setRefreshToken(res.data.refreshToken);
         setExpriresIn(res.data.expiresIn);
+        window.history.pushState({}, null, "/");
       })
       .catch((err) => {
         console.log(err);
         console.log(code);
-        window.location = "/login";
+        navigate("/dashboard", { code });
       });
   }, [code]);
 

@@ -5,8 +5,9 @@ var SpotifyWebApi = require("spotify-web-api-node");
 
 var spotifyApi = new SpotifyWebApi({});
 
-const Dashboard = () => {
-  const code = window.localStorage.getItem("authCode");
+const Dashboard = ({ code }) => {
+  // const code = window.localStorage.getItem("authCode");
+
   const accessToken = useAuth(code);
 
   spotifyApi.setAccessToken(accessToken);
@@ -39,10 +40,14 @@ const Dashboard = () => {
     <div>
       <ul>
         <li>
-          <Link to="/visualizer/">Visualizer</Link>
+          <Link to="/visualizer/" state={{ accessToken: accessToken }}>
+            Visualizer
+          </Link>
         </li>
         <li>
-          <Link to="/about/">About the User</Link>
+          <Link to="/about/" state={{ accessToken: accessToken }}>
+            About the User
+          </Link>
         </li>
       </ul>
     </div>

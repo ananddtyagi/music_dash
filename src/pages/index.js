@@ -5,6 +5,7 @@ import Login from "./login";
 
 const Main = () => {
   const code = window.localStorage.getItem("authCode");
+
   // const accessToken = window.localStorage.getItem("accessToken");
   // if (code === "undefined" || !code) {
   //   navigate("/login");
@@ -13,7 +14,7 @@ const Main = () => {
 
   // navigate("/dashboard");
   // return <div />;
-  return code ? <Dashboard /> : <Login />;
+  return code ? <Dashboard code={code} /> : <Login />;
 };
 
 export default Main;
